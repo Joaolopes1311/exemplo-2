@@ -186,7 +186,22 @@
 //     console.log("do while é",z)
 //     z++;
 // }while(z <= 100)
-    
+
+    //funcões
+
+    function saudacao (nome){
+    //  console.log("seja bem vindo", nome)
+    console.log (`seja bem vindo ${nome}`) //string literais
+    }
+saudacao("Fiap")
+
+function semaforo (){
+    let sinal = "amarelo";
+    console.log(`o semaforo está ${sinal}`)
+}
+semaforo();
+
+
 
 
 
